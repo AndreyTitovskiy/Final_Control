@@ -39,3 +39,11 @@ for (int i = 0; i < inputArray.Length; i++)
     else Console.Write(inputArray[i]);
 }
 Console.Write("]");
+
+Console.Write("->[");
+for (int i = 0; i < resultArray.Length; i++)
+{
+    if (i < resultArray.Length - 1) Console.Write(resultArray[i] + ", ");
+    else Console.Write(resultArray[i]);
+}
+Console.Write("]");
