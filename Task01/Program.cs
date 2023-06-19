@@ -10,7 +10,13 @@
 
 Console.Write("Введите элементы массива, разделяя их запятыми: ");
 string input = Console.ReadLine();
-
 string[] inputArray = input.Split(',');
-
 int count = 0;
+
+for (int i = 0; i < inputArray.Length; i++)
+{
+    if (inputArray[i].Length <= 3)
+    {
+        count++;
+    }
+}
