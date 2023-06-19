@@ -8,3 +8,9 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
+Console.Write("Введите элементы массива, разделяя их запятыми: ");
+string input = Console.ReadLine();
+
+string[] inputArray = input.Split(',');
+
+int count = 0;
